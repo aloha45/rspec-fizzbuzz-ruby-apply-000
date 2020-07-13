@@ -2,13 +2,13 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  if int % 3 and int % 5
+  if (int % 3) && (int % 5)
     return "FizzBuzz"
   
-  elsif int % 3 == 0
+  elsif int % 3
     return "Fizz"
   
-  else int % 5 == 0
+  else int % 5
     return "Buzz"
   
   end
